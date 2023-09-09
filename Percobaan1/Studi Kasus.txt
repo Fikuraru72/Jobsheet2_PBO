@@ -1,0 +1,12 @@
+1. Gambarkan desain class diagram dari studi kasus 1!
+2. Sebutkan Class apa saja yang bisa dibuat dari studi kasus 1!
+3. Sebutkan atribut beserta tipe datanya yang dapat diidentifikasi dari masing-masing
+class dari studi kasus 1!
+4. Sebutkan method-method yang sudah anda buat dari masing-masing class pada studi
+kasus 1!
+
+Jawaban : 
+1. 
+2. Class Karyawan dan class Jabatan
+3. Class Karyawan (idKaryawan"Long", Nama"String", JenisKelamin"String"), Class Jabatan (Jabatan"String", Gaji"Long")
+4. Karyawan ( AddKaryawan() void, GantiJabatan(long id) void, TampilData() void ), Jabatan ( AddJabatan() Void, Tampil Jabatan&Gaji(int idx) Void, SearchJabatan(String jabatana) int)
